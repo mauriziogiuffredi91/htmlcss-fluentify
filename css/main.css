@@ -180,25 +180,92 @@ h4 {
 .box-bacheca {
     width: 33%;
     height: 100%;
-    border: 2px solid black;
+    margin-right: 4px;
     
 }
 
-.box-sculpture .first-img img,
-.box-pc img,
-.box-bacheca img {
+.box-sculpture .first-img img{
+    margin-left: 128px;
+    margin-top: 34px;
+    width: 100px;
+    object-fit: cover;
+}
+
+
+
+.box-pc .second-img img{
     margin-left: 120px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
+    width: 164px;
+    object-fit: cover;
+}
+
+
+
+
+
+.box-bacheca .third-img img {
+    margin-left: 120px;
+    margin-top: 28px;
     width: 120px;
     object-fit: cover;
 }
 
+.box-sculpture p{
+    text-align: center;
+    width: 330px;
+    margin-left: 20px;
+
+}
+
+.box-pc p{
+    text-align: center;
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.box-bacheca p{
+    text-align: center;
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+
+
+.box-sculpture h3{
+    text-align: center;
+    width: 80%;
+    color: #a6d153;
+    margin-left: 7%;
+}
+.box-pc h3{
+    text-align: center;
+    width: 60%;
+    color: #a6d153;
+    margin-left: 17%;
+    
+}
+.box-bacheca h3 {
+    text-align: center;
+    width: 83%;
+    color: #a6d153;
+    margin-left: 5%;
+    
+}
 
 .second-white,
 .first-white{
     background: white;
     height: 400px;
+}
+
+hr{
+    display: inline-block;
+    width: 50px;
+    margin: 5% 40%;
+
 }
 
 footer{
