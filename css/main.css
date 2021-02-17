@@ -24,8 +24,9 @@ img{
     background-color: #0d325a;
 }
 
-.main-header .jumbotron{
+.jumbotron{
     background-color: #0d325a;
+    height: 480px;
     
 }
 
