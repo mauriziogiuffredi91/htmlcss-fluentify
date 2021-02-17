@@ -15,14 +15,66 @@ img{
     height: auto;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 500;
+
+}
+
+/* utilities */
+
+/* generali */
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .container{
     margin: 0 auto;
     width: 1200px;
 }
 
+.float-left{
+    float: left;
+}
+
+/* barra */
+
+/* main-header */
+
 .main-header{
     background-color: #0d325a;
+    line-height: 80px;
+    text-transform: uppercase;
+    font-size: 12px;
 }
+
+.main-header .logo-left{
+    width: 15%;
+    background: rgba(0, 0, 0, .15);
+}
+
+.main-header .logo-left img{
+    vertical-align: middle;
+}
+
+
+.main-header .bar-left{
+    width: 45%;
+    background: rgba(0, 0, 0, .45);
+
+}
+
+.main-header .bar-right{
+    width: 40%;
+    text-align: right;
+    background: rgba(0, 0, 0, .45);
+}
+/* Jumbotron */
 
 .jumbotron{
     background-color: #0d325a;
