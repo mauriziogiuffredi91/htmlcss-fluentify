@@ -15,7 +15,12 @@ img{
     height: auto;
 }
 
-.main-header .bar{
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.main-header{
     background-color: #0d325a;
 }
 
@@ -26,15 +31,15 @@ img{
 
 
 
-.middle-bar{
+.first-gray{
     background: #d3d3d3;
     height: 95px;
 }
 
-
-main{
+.second-white,
+.first-white{
     background: green;
-    height: 800px;
+    height: 400px;
 }
 
 footer{
