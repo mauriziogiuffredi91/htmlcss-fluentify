@@ -10,10 +10,7 @@ body{
     color: #a2a2a2;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
-}
+
 
 h1,
 h2,
@@ -211,26 +208,6 @@ h4 {
     object-fit: cover;
 }
 
-.box-sculpture p{
-    text-align: center;
-    width: 330px;
-    margin-left: 20px;
-
-}
-
-.box-pc p{
-    text-align: center;
-    width: 330px;
-    margin-left: 20px;
-    margin-top: 7px;
-}
-
-.box-bacheca p{
-    text-align: center;
-    width: 330px;
-    margin-left: 20px;
-    margin-top: 5px;
-}
 
 
 
@@ -255,18 +232,57 @@ h4 {
     
 }
 
+.box-sculpture p{
+    text-align: center;
+    width: 330px;
+    margin-left: 20px;
+
+}
+
+.box-pc p{
+    text-align: center;
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.box-bacheca p{
+    text-align: center;
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
 .second-white,
 .first-white{
     background: white;
     height: 400px;
 }
 
-hr{
+.special{
     display: inline-block;
     width: 50px;
     margin: 5% 40%;
 
 }
+
+/* second white */
+.second-white .box-img{
+    width: 448px;
+    
+}
+.second-white .hero{
+    width: 300px;
+    
+}
+
+.space{
+    margin: 20px;
+}
+
+
+
+
 
 footer{
     background: #d3d3d3;
