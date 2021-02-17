@@ -5,10 +5,26 @@
 }
 
 body{
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font: 16px;
+    color: #a2a2a2;
 }
 
 img{
     max-width: 100%;
     height: auto;
+}
+
+.main-header .bar{
+    background-color: #0d325a;
+}
+
+.main-header .jumbotron{
+    background-color: #0d325a;
+    
+}
+
+.middle-bar{
+    background: #d3d3d3;
+    
 }
