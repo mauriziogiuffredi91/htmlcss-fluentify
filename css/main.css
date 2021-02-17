@@ -42,20 +42,45 @@ h4 {
     float: left;
 }
 
+/* bottone */
+
+.btn{
+    display: inline-block;
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn.button-green{
+    background-color: green;
+    border: 0;
+
+}
+
 /* barra */
 
-.bar-left li{
+.main-header li{
     list-style: none;
     display: inline-block;
     margin-right: 20px;
 
 }
 
-.bar-left li a{
+.main-header a{
     text-decoration: none;
     color: whitesmoke;
     
 }
+
+.main-header a.btn{
+    line-height: 0.8;
+}
+
+
 
 /* main-header */
 
@@ -68,7 +93,7 @@ h4 {
 
 .main-header .logo-left{
     width: 15%;
-    background: rgba(0, 0, 0, .15);
+    
 }
 
 .main-header .logo-left img{
@@ -78,14 +103,14 @@ h4 {
 
 .main-header .bar-left{
     width: 45%;
-    background: rgba(0, 0, 0, .45);
+    
 
 }
 
 .main-header .bar-right{
     width: 40%;
     text-align: right;
-    background: rgba(0, 0, 0, .45);
+   
 }
 /* Jumbotron */
 
