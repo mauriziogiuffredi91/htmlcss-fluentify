@@ -28,6 +28,8 @@ h4 {
 
 /* generali */
 
+
+
 .height{
     height: 100%;
 }
@@ -162,9 +164,6 @@ h4 {
 
 }
 
-.first-gray .text-banner h4{
-    text-align: center;
-}
 
 .first-gray .text-banner{
     width: 70%;
@@ -172,6 +171,25 @@ h4 {
     top: 40%;
     left: 50%;
     transform: translate(-30%, -30%);
+}
+
+
+/* first-white */
+.box-pc,
+.box-sculpture,
+.box-bacheca {
+    width: 33%;
+    height: 100%;
+    border: 2px solid black;
+    
+}
+
+.box-sculpture .first-img img,
+.box-pc img,
+.box-bacheca img {
+    
+    width: 120px;
+    object-fit: cover;
 }
 
 
