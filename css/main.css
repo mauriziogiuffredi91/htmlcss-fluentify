@@ -36,6 +36,8 @@ h4 {
 .container{
     margin: 0 auto;
     width: 1200px;
+    position: relative;
+    height: 100%;
 }
 
 .float-left{
@@ -117,11 +119,25 @@ h4 {
 .jumbotron{
     background-color: #0d325a;
     height: 480px;
+    background-image: url('../img/background-header.png');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 118% 116%;
     
 }
 
 .box-banner{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    transform: translate(0,-50%);
     
+}
+
+.box-banner .box-test h2{
+    width: 70%;
+    font-size: 33px;
+    color: white;
 }
 
 
