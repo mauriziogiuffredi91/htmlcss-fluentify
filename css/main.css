@@ -4,3 +4,11 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Heebo', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
