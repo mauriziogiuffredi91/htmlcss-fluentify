@@ -24,7 +24,20 @@ img{
     
 }
 
+
+
 .middle-bar{
     background: #d3d3d3;
-    height: 60px;
+    height: 95px;
+}
+
+
+main{
+    background: green;
+    height: 800px;
+}
+
+footer{
+    background: #d3d3d3;
+    height: 95px;
 }
