@@ -20,12 +20,18 @@ h2,
 h3,
 h4 {
     font-weight: 500;
-
+    
+    
 }
 
 /* utilities */
 
 /* generali */
+
+.height{
+    height: 100%;
+}
+
 
 .clearfix::after{
     content: '';
@@ -138,14 +144,36 @@ h4 {
     width: 70%;
     font-size: 33px;
     color: white;
+    margin-bottom: 20px;
 }
 
-
+/* first gray */
 
 .first-gray{
     background: #d3d3d3;
-    height: 95px;
+    height: 100px;
 }
+
+
+.first-gray .text-banner h2{
+    color: black;
+    width: 70%;
+    text-align: center;
+
+}
+
+.first-gray .text-banner h4{
+    text-align: center;
+}
+
+.first-gray .text-banner{
+    width: 70%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-30%, -30%);
+}
+
 
 .second-white,
 .first-white{
