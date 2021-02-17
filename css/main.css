@@ -187,7 +187,9 @@ h4 {
 .box-sculpture .first-img img,
 .box-pc img,
 .box-bacheca img {
-    
+    margin-left: 120px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     width: 120px;
     object-fit: cover;
 }
@@ -195,7 +197,7 @@ h4 {
 
 .second-white,
 .first-white{
-    background: green;
+    background: white;
     height: 400px;
 }
 
