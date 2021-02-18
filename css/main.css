@@ -251,7 +251,7 @@ h4 {
 
 /* footer barra */
 
-footer{
+.first-f{
     background: #d3d3d3;
     height: 189px;
 }
@@ -333,7 +333,7 @@ footer{
     display: inline-block;
 }
 
-footer a:hover{
+.first-f a:hover{
     cursor: pointer;
 
 }
