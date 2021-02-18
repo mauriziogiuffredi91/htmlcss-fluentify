@@ -224,7 +224,24 @@ h4 {
 }
 
 
+.second-white .box-img img{
+    margin-top: 50px;
+}
 
+.second-white .hero{
+    margin-top: 50px;
+    
+}
+
+.second-white .hero h3{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+
+.second-white .hero p{
+    font-size: 20px;
+}
 
 .space{
     margin: 20px;
