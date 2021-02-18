@@ -348,7 +348,22 @@ h4 {
 .hands .quadro-hands,
 .hands .quadro-text-hands{
     width: 50%;
+    margin-top: 40px;
 }
+
+.quadro-text-hands h3{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    
+}
+
+.quadro-text-hands p{
+    margin-bottom: 20px ;
+}
+
 
 .quadro-text-hands .real-life{
     padding: 12px;
@@ -359,10 +374,7 @@ h4 {
     width: 190px;
     
 }
-/* .hands .quadro-text-hands a{
-    margin-top: 10px;
-    font-size: 10px;
-} */
+
 
 /* section computer */
 
