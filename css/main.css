@@ -332,3 +332,8 @@ footer{
     border-bottom: none;
     display: inline-block;
 }
+
+footer a:hover{
+    cursor: pointer;
+
+}
