@@ -172,86 +172,23 @@ h4 {
 
 
 /* first-white */
-.box-pc,
 .box-sculpture,
+.box-pc,
 .box-bacheca {
     width: 33%;
-    height: 100%;
+    height: 400px;
     margin-right: 4px;
     
 }
 
-.box-sculpture .first-img img{
-    margin-left: 128px;
-    margin-top: 34px;
-    width: 100px;
-    object-fit: cover;
+
+.first-white img {
+    width: 140px;
+    padding: 20px;
+    margin-left: 113px;
 }
 
 
-
-.box-pc .second-img img{
-    margin-left: 120px;
-    margin-top: 30px;
-    width: 164px;
-    object-fit: cover;
-}
-
-
-
-
-
-.box-bacheca .third-img img {
-    margin-left: 120px;
-    margin-top: 28px;
-    width: 120px;
-    object-fit: cover;
-}
-
-
-
-
-.box-sculpture h3{
-    text-align: center;
-    width: 80%;
-    color: #a6d153;
-    margin-left: 7%;
-}
-.box-pc h3{
-    text-align: center;
-    width: 60%;
-    color: #a6d153;
-    margin-left: 17%;
-    
-}
-.box-bacheca h3 {
-    text-align: center;
-    width: 83%;
-    color: #a6d153;
-    margin-left: 5%;
-    
-}
-
-.box-sculpture p{
-    text-align: center;
-    width: 330px;
-    margin-left: 20px;
-
-}
-
-.box-pc p{
-    text-align: center;
-    width: 330px;
-    margin-left: 20px;
-    margin-top: 7px;
-}
-
-.box-bacheca p{
-    text-align: center;
-    width: 330px;
-    margin-left: 20px;
-    margin-top: 5px;
-}
 
 .second-white,
 .first-white{
