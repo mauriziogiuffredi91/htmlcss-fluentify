@@ -345,6 +345,25 @@ h4 {
     height: 446px;
 }
 
+.hands .quadro-hands,
+.hands .quadro-text-hands{
+    width: 50%;
+}
+
+.quadro-text-hands .real-life{
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: left;
+    width: 190px;
+    
+}
+/* .hands .quadro-text-hands a{
+    margin-top: 10px;
+    font-size: 10px;
+} */
+
 /* section computer */
 
 .computer{
