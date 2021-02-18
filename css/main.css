@@ -253,6 +253,16 @@ h4 {
 
 footer{
     background: #d3d3d3;
-    height: 95px;
+    height: 189px;
 }
 
+.footer-left{
+    width: 70%;
+    margin-top: 61px;
+}
+
+.footer-left h3{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
