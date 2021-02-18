@@ -256,13 +256,49 @@ footer{
     height: 189px;
 }
 
+
 .footer-left{
-    width: 70%;
+    width: 50%;
     margin-top: 61px;
+    
 }
 
+
+.footer-right{
+    width: 50%;
+    margin-top: 65px;
+}
 .footer-left h3{
     font-size: 40px;
     color: black;
     font-weight: bold;
 }
+
+.footer-right li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+.footer-right a{
+    text-decoration: none;
+    color: #8d8d8d;
+    
+}
+
+.footer-right .custom-select{
+    color:  #8d8d8d;
+    display: inline-block;
+    width: 100px;
+}
+
+.footer-right .option{
+    display: inline-block;
+    width: 114px;
+    border-bottom: 1px solid #8d8d8d;
+}
+
+
+
+
